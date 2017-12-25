@@ -9,5 +9,5 @@
 #import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
 @interface CTMediator (AT)
-- (UIViewController *)A_aViewController;
+- (UIViewController *)ATest_aViewController;
 @end

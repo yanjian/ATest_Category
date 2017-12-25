@@ -9,8 +9,8 @@
 #import "CTMediator+AT.h"
 
 @implementation CTMediator (AT)
-- (UIViewController *)A_aViewController
+- (UIViewController *)ATest_aViewController
 {
-    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"ATest" action:@"viewController" params:nil shouldCacheTarget:NO];
 }
 @end
