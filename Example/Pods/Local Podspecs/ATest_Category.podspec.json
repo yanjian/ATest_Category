@@ -1,22 +1,27 @@
 {
   "name": "ATest_Category",
   "version": "0.1.0",
-  "summary": "A short description of ATest_Category.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/qq83659105/ATest_Category",
+  "summary": "A user test of ATest_Category.",
+  "description": "homepage -> https://github.com/yanjian/ATest_Category",
+  "homepage": "https://github.com/yanjian/ATest_Category",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "qq83659105": "qq83659105@163.com"
+    "yanjian": "yanjaya@163.com"
   },
   "source": {
-    "git": "https://github.com/qq83659105/ATest_Category.git",
+    "git": "https://github.com/yanjian/ATest_Category.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ATest_Category/Classes/**/*"
+  "source_files": "ATest_Category/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
 }

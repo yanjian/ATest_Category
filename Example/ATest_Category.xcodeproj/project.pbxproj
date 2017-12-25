@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A8588A4C1FF0EBB0008A50E1 /* CTMediator+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A8588A4B1FF0EBB0008A50E1 /* CTMediator+AT.m */; };
 		FA2A297B95FB4732131F40CC /* Pods_ATest_Category_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894DE4440A05363CCCA4A06 /* Pods_ATest_Category_Tests.framework */; };
 		FCB129A0CE918143EF8DB176 /* Pods_ATest_Category_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520213D2D728B6D93D99BD1 /* Pods_ATest_Category_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0520213D2D728B6D93D99BD1 /* Pods_ATest_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATest_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF41AA2BF32FE3DF23D86B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DF41AA2BF32FE3DF23D86B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ATest_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATest_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +63,10 @@
 		753E63123AAE20211291879C /* Pods-ATest_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATest_Category_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATest_Category_Tests/Pods-ATest_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7555DDAB9B3653F23222ED22 /* Pods-ATest_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATest_Category_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATest_Category_Example/Pods-ATest_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD92C9AB8EFE19CC84445007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E2BD7A468E8F471BB7051167 /* ATest_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ATest_Category.podspec; path = ../ATest_Category.podspec; sourceTree = "<group>"; };
+		A8588A4A1FF0EBB0008A50E1 /* CTMediator+AT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+AT.h"; sourceTree = "<group>"; };
+		A8588A4B1FF0EBB0008A50E1 /* CTMediator+AT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+AT.m"; sourceTree = "<group>"; };
+		AD92C9AB8EFE19CC84445007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2BD7A468E8F471BB7051167 /* ATest_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATest_Category.podspec; path = ../ATest_Category.podspec; sourceTree = "<group>"; };
 		E894DE4440A05363CCCA4A06 /* Pods_ATest_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATest_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DEAF6F68281DBB6988A4C4 /* Pods-ATest_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATest_Category_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATest_Category_Example/Pods-ATest_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE5A340DAF53AC7DD5C978A4 /* Pods-ATest_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATest_Category_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATest_Category_Tests/Pods-ATest_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,11 +181,38 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				A8588A431FF0EAFD008A50E1 /* ATest_Category */,
 				E2BD7A468E8F471BB7051167 /* ATest_Category.podspec */,
 				AD92C9AB8EFE19CC84445007 /* README.md */,
 				3DF41AA2BF32FE3DF23D86B9 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A8588A431FF0EAFD008A50E1 /* ATest_Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8588A441FF0EAFD008A50E1 /* Assets */,
+				A8588A461FF0EAFD008A50E1 /* Classes */,
+			);
+			name = ATest_Category;
+			path = ../ATest_Category;
+			sourceTree = "<group>";
+		};
+		A8588A441FF0EAFD008A50E1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A8588A461FF0EAFD008A50E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8588A4A1FF0EBB0008A50E1 /* CTMediator+AT.h */,
+				A8588A4B1FF0EBB0008A50E1 /* CTMediator+AT.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E3FA29A7DBC559CB58F5A9E3 /* Pods */ = {
@@ -250,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qq83659105;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9T93SHJYAA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -319,11 +352,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ATest_Category_Example/Pods-ATest_Category_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ATest_Category/ATest_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATest_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -414,6 +447,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ATAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ATViewController.m in Sources */,
+				A8588A4C1FF0EBB0008A50E1 /* CTMediator+AT.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +576,7 @@
 			baseConfigurationReference = 7555DDAB9B3653F23222ED22 /* Pods-ATest_Category_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T93SHJYAA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATest_Category/ATest_Category-Prefix.pch";
 				INFOPLIST_FILE = "ATest_Category/ATest_Category-Info.plist";
@@ -557,6 +592,7 @@
 			baseConfigurationReference = E9DEAF6F68281DBB6988A4C4 /* Pods-ATest_Category_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T93SHJYAA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATest_Category/ATest_Category-Prefix.pch";
 				INFOPLIST_FILE = "ATest_Category/ATest_Category-Info.plist";
