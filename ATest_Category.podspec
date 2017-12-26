@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATest_Category'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A user test of ATest_Category.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ATest_Category/Classes/**/*'
-  
+  s.requires_arc = true
+
   # s.resource_bundles = {
   #   'ATest_Category' => ['ATest_Category/Assets/*.png']
   # }

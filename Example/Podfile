@@ -2,13 +2,5 @@ use_frameworks!
 
 target 'ATest_Category_Example' do
   pod 'ATest_Category', :path => '../'
-
-  target 'ATest_Category_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-  end
+ 
 end
